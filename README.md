@@ -1,6 +1,6 @@
 # My Good Day
 
-Turn self-care into a gacha experience with a low-poly cat capsule machine.
+When someone presses the red button on the cat machine, the experience should surprise them with three small ideas that make their day feel a little different.
 
 ## My Idea
 
@@ -63,27 +63,19 @@ Codex translated these requests into HTML, CSS, JavaScript, and Three.js code. I
 
 ## Reflection
 
-Some parts matched my expectations and some did not. At first, I thought that if my description was detailed enough, I would not need many changes. This project showed me that a detailed prompt is only a starting point. I still needed to try the experience, notice what felt unclear, and explain what I wanted to change.
-
-One mistake I noticed was relying on assumptions. My first description did not include audio because I assumed Codex would generate it automatically. When I later asked for audio, Codex also added a sound on/off option that I had not specifically requested. The option lets people choose a quieter experience, but it reminded me to review both missing details and unexpected additions.
+Some parts matched my expectations and some did not. At first, I thought that if my description was detailed enough, I would not need many changes. This project showed me that a detailed prompt is only a starting point. I still needed to try the experience, notice what felt unclear, and explain what I wanted to change.One mistake I noticed was relying on assumptions. My first description did not include audio because I assumed Codex would generate it automatically. When I later asked for audio, Codex also added a sound on/off option that I had not specifically requested. The option lets people choose a quieter experience, but it reminded me to review both missing details and unexpected additions.
 
 When I thought the web page was nearly finished, I asked Codex for suggestions based on my design goals and intended users. That conversation helped me see more opportunities to improve it. One suggestion that stood out was the wording “Save this moment,” because it frames even a small activity as something worth remembering. Although the current button still says “Save my little good,” that suggestion helped me think more carefully about how wording can make an experience feel meaningful rather than like another task.
-
-One suggestion I did not accept was adding context filters, such as time available, staying indoors, or wanting something new. I felt that unpredictability is the heart of a gacha machine. Too many conditions could turn it into an ordinary search tool. However, I kept a useful part of the suggestion by letting users optionally choose a capsule type. Choosing a capsule color feels like part of the play rather than filling out a form.
-
-Feedback from a friend taught me something I had not noticed myself. He found “Both” confusing and wondered how an activity could be done alone and with others at the same time. Based on that feedback, I renamed it “A little of each” and added the explanation “Solo and shared ideas in one spin.” I also changed the shared capsules from blue to orange because the blue was too similar to the machine.
-
+One suggestion I did not accept was adding context filters, such as time available, staying indoors, or wanting something new. I felt that unpredictability is the heart of a gacha machine. Too many conditions could turn it into an ordinary search tool. However, I kept a useful part of the suggestion by letting users optionally choose a capsule type. Choosing a capsule color feels like part of the play rather than filling out a form. Feedback from a friend taught me something I had not noticed myself. He found “Both” confusing and wondered how an activity could be done alone and with others at the same time. Based on that feedback, I renamed it “A little of each” and added the explanation “Solo and shared ideas in one spin.” I also changed the shared capsules from blue to orange because the blue was too similar to the machine.
 Other revisions focused on reducing pressure and repetition. “Jot down ideas” felt more open-ended than “My Reflection.” A single photo button was clearer than several overlapping upload controls. Short instructions made the next action easier to understand without requiring a full tutorial.
 
 Throughout the process, AI helped me turn my ideas into working code and offered possibilities I had not considered. But I still needed to decide whether those suggestions supported the experience I wanted. My biggest lesson was that making a meaningful web page depends on more than generating features: it requires questioning assumptions, listening to other people, and revising small details with a clear purpose.
 
 ## Testing and Remaining Limitations
 
-Automated tests check that the task collection has unique IDs and text, every task has complete card information, each spin contains three distinct suggestions, consecutive spins avoid repeats, and capsule choices return the appropriate solo, shared, or mixed activities. The production build has also been checked during development.
+Automated tests check that every task is unique and complete, each spin shows three different suggestions, back-to-back spins avoid repeats, and each capsule type returns the right kind of activity. The interface was revised based on hands-on testing and a friend's feedback on the "Both" label. This is not yet a full usability study: more testing on different phones, with keyboard users, and with different photo formats is still needed.
 
-My own iterative feedback and my friend’s response to “Both” informed the interface revisions. These are useful observations, but they are not a full usability study. More testing on different phones, with keyboard users, and across photo formats would help establish how well the experience works for different people.
-
-The diary is stored locally in the visitor’s browser using IndexedDB. It does not sync across devices or browsers, and clearing browser data removes entries. A hosted URL and a localhost preview have separate diaries. Each uploaded image is limited to 15 MB and resized to at most 1400 pixels on its longest side. Camera options depend on the device’s native image picker. The 3D model requires WebGL; a fallback button still allows task selection if the renderer cannot initialize.
+The diary is saved only in the visitor's browser. It does not sync across devices, and clearing browser data deletes it. Photos are limited to 15 MB each and resized before saving. The 3D machine needs WebGL, but a fallback button still lets users get tasks if it cannot load.
 
 ## Project Structure
 
