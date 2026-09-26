@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.DS_Store
+.env
+.env.*
+!.env.example
+
+.pnpm-store/
+
+# Deployment identity and personal references
+.openai/
+references/

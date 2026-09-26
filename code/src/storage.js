@@ -1,0 +1,7 @@
+let dbPromise;
+function database(){return dbPromise??=new Promise((resolve,reject)=>{const req=indexedDB.open('my-good-day',1);req.onupgradeneeded=()=>req.result.createObjectStore('entries',{keyPath:'id'});req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error);});}
+async function transaction(mode,action){const db=await database();return new Promise((resolve,reject)=>{const tx=db.transaction('entries',mode);const request=action(tx.objectStore('entries'));tx.oncomplete=()=>resolve(request.result);tx.onerror=()=>reject(tx.error);tx.onabort=()=>reject(tx.error);});}
+export const getEntries=async()=> (await transaction('readonly',s=>s.getAll())).sort((a,b)=>b.timestamp-a.timestamp);
+export const saveEntry=entry=>transaction('readwrite',s=>s.add(entry));
+export const deleteEntry=id=>transaction('readwrite',s=>s.delete(id));
+export async function preparePhoto(file){if(!file.type.startsWith('image/'))throw new Error('Please choose an image.');if(file.size>15*1024*1024)throw new Error('Please choose a photo smaller than 15 MB.');const bitmap=await createImageBitmap(file);const scale=Math.min(1,1400/Math.max(bitmap.width,bitmap.height));const canvas=document.createElement('canvas');canvas.width=Math.round(bitmap.width*scale);canvas.height=Math.round(bitmap.height*scale);canvas.getContext('2d').drawImage(bitmap,0,0,canvas.width,canvas.height);bitmap.close();return new Promise((resolve,reject)=>canvas.toBlob(blob=>blob?resolve(blob):reject(new Error('This photo could not be processed. Try a JPEG or PNG.')),'image/jpeg',.82));}
