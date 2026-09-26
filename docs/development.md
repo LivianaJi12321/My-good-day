@@ -47,10 +47,10 @@ when actual distributable assets are introduced, and record their licenses.
 `node_modules/`, `code/dist/`, local package caches, and `.env` files are ignored.
 Do not edit generated build output; change source files and rebuild.
 
-## Public website
+## Public web page
 
-[Play My Good Day](https://my-good-day.xj2365.chatgpt.site) without installing anything. Local files do not automatically update this hosted version. Publish a new version after application changes when requested.
+[Play My Good Day](https://my-good-day.xj2365.chatgpt.site) without installing anything. Local files do not automatically update this hosted version. Publish a new version after web page changes when requested.
 
 The hosting workspace has `.openai/hosting.json` identifying the existing Site. Its deployment uses root `dist/`, produced with `vite build code --outDir ../dist`; ordinary `pnpm build` still outputs `code/dist/`. Both are generated and ignored by Git. Preserve the existing Site identity when publishing from the hosting workspace.
 
-The Desktop folder is a separate copy, not a synchronized checkout. Its `references/` directory preserves the personal style image. Updating that copy does not move the running preview or change the public website. Browser diaries are unaffected by documentation or source-folder copies.
+The Desktop folder is a separate copy, not a synchronized checkout. Its `references/` directory preserves the personal style image. Updating that copy does not move the running preview or change the public web page. Browser diaries are unaffected by documentation or source-folder copies.

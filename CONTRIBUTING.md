@@ -3,7 +3,7 @@
 Keep My Good Day gentle, accessible, and focused on small acts of care.
 
 1. Follow the setup in [README.md](README.md).
-2. Make application changes in `code/`, product documentation changes in
+2. Make web page changes in `code/`, product documentation changes in
    `docs/`, and reusable skill changes in `skills/my-good-day/`.
 3. Run `pnpm test` and `pnpm build` from the repository root.
 4. Check affected flows in the browser. For interaction changes, include

@@ -1,6 +1,6 @@
 ---
 name: my-good-day
-description: Build or extend the My Good Day self-care capsule machine app, including its low-poly Three.js cat, energy-task flow, and private diary. Use for work on this product or an explicitly requested recreation.
+description: Build or extend the My Good Day self-care capsule machine web page, including its low-poly Three.js cat, energy-task flow, and private diary. Use for work on this product or an explicitly requested recreation.
 ---
 
 # My Good Day
@@ -19,4 +19,4 @@ Preserve these product invariants unless the user changes them:
 - Diary entries retain save timestamps, appear newest first, and can be deleted. Store user text as text, never HTML.
 - Diary and photo data remain browser-local unless the user requests another storage model. Explain persistence and deletion limitations. Never bundle personal data or reference images without redistribution rights.
 
-For validation, run the project's task tests and production build. When changing flows, check the affected behavior in a browser, including an appropriate narrow-screen or keyboard case. When delivering a recreation, include editable task data and setup documentation; use original procedural geometry rather than copying reference characters.
+For validation, run the project's task tests and production build. When changing flows, check the affected behavior in a browser, including a web pageropriate narrow-screen or keyboard case. When delivering a recreation, include editable task data and setup documentation; use original procedural geometry rather than copying reference characters.

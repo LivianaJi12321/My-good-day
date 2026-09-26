@@ -20,7 +20,7 @@ Turn self-care into a playful gacha experience. Small, unexpected activities can
 
 ## Visual direction
 
-The user-supplied style reference informed original procedural geometry: a retro, low-poly glass cat inspired by PS1/PS2-era figures, with angular ears, faceted shapes, and glossy materials. The reference image itself is not included in the app.
+The user-supplied style reference informed original procedural geometry: a retro, low-poly glass cat inspired by PS1/PS2-era figures, with angular ears, faceted shapes, and glossy materials. The reference image itself is not included in the web page.
 
 The cat has a translucent capsule-filled head, star eye, omega-shaped mouth, pink blush, paws, tail, side crank, and a prominent red button. It sways gently while idle. The larger model and clear button help make direct interaction discoverable.
 
@@ -39,15 +39,15 @@ Use short instructions in context rather than a mandatory tutorial. Do not add t
 
 ## Technology and storage
 
-The app uses HTML, CSS, JavaScript, Three.js, and Vite. Original sounds are synthesized with Web Audio after user interaction. A sound toggle remembers the preference locally; hiding the page stops sounds.
+The web page uses HTML, CSS, JavaScript, Three.js, and Vite. Original sounds are synthesized with Web Audio after user interaction. A sound toggle remembers the preference locally; hiding the page stops sounds.
 
-IndexedDB stores entries and photo blobs in the visitor's browser. No account or app backend is required. Diaries do not synchronize across browsers, devices, or origins. Clearing browser data removes them. The public site and local preview have separate diaries. Storage errors keep the form available for retry.
+IndexedDB stores entries and photo blobs in the visitor's browser. No account or backend server is required. Diaries do not synchronize across browsers, devices, or origins. Clearing browser data removes them. The public site and local preview have separate diaries. Storage errors keep the form available for retry.
 
 Use native controls, visible focus, responsive layouts, and reduced-motion support. If WebGL initialization fails, a visible red fallback button still allows task selection. Camera availability depends on the device's native image picker.
 
 ## Source and distribution
 
-Application code and tests live in `code/`; documentation lives in `docs/`; reusable guidance lives in `skills/my-good-day/`. Root-level package commands manage development. See [development.md](development.md) and [../README.md](../README.md).
+Web page code and tests live in `code/`; documentation lives in `docs/`; reusable guidance lives in `skills/my-good-day/`. Root-level package commands manage development. See [development.md](development.md) and [../README.md](../README.md).
 
 Original source, geometry, and audio use the MIT license. Never publish credentials, personal diary content, or reference images without redistribution rights. The Desktop reference is retained separately in `references/` and excluded from Git.
 
