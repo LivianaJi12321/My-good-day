@@ -1,6 +1,6 @@
 # My Good Day
 
-A small, playful web page that turns self-care into a capsule-machine surprise.
+Turn self-care into a gacha experience with a low-poly cat capsule machine.
 
 ## My Idea
 
