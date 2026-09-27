@@ -49,7 +49,7 @@ Do not edit generated build output; change source files and rebuild.
 
 ## Public web page
 
-[Play My Good Day](https://my-good-day.xj2365.chatgpt.site) without installing anything. Local files do not automatically update this hosted version. Publish a new version after web page changes when requested.
+[Play My Good Day](https://livianaji12321.github.io/My-good-day/) without installing anything. The site is published with GitHub Pages and updates automatically a minute or two after changes are pushed to the `main` branch.
 
 The hosting workspace has `.openai/hosting.json` identifying the existing Site. Its deployment uses root `dist/`, produced with `vite build code --outDir ../dist`; ordinary `pnpm build` still outputs `code/dist/`. Both are generated and ignored by Git. Preserve the existing Site identity when publishing from the hosting workspace.
 
