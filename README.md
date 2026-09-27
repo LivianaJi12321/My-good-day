@@ -45,19 +45,37 @@ pnpm build      # Create the static build in code/dist/
 pnpm preview    # Preview the production build locally
 ```
 
-## AI Tools and Selected Prompts
+## AI Tools
 
 I used Codex for most of the development and revisions. I described my ideas in natural language, including the UI, user experience, functions, and technology choices. I also supplied a low-poly style reference and gave feedback after trying different versions.
 
-The following prompts are shortened summaries of requests from my development process, rather than exact transcripts:
+### Key Prompts
 
-- **Initial idea:** Build a self-care gacha web page with a low-poly glass cat machine. Each spin reveals three small energy tasks, and users can save completed moments with photos and notes.
-- **Sound and feedback:** Add sounds when users press the button, the machine spins, and capsules roll out.
-- **A pressure-free experience:** Change “My Reflection” to “Jot down ideas.” Keep the writing area optional and avoid specific reflection questions.
-- **Surprise with a small choice:** Keep the unpredictability of gacha, but allow users to choose solo activities, activities with others, or a mix.
-- **Interaction:** Make the machine and its red button larger, and remove the separate “Give me a little good” button so users interact with the machine itself.
-- **Clarity after feedback:** Rename “Both” to “A little of each,” add short instructions, and change the shared capsule color from blue to orange so it stands out from the blue machine.
-- **Simplifying photos:** Replace repeated upload controls with one “Add a photo” button that accepts multiple images.
+These are excerpts from my original prompts, lightly edited for punctuation and grammar rather than exact transcripts. The first prompt used the word “app”; I now describe My Good Day as an interactive website.
+
+**1. Introducing the idea**
+
+> My Good Day is a small web app that turns self-care into a game. It is built around a cute 3D gacha (capsule toy) machine. Each spin gives users three small “energy tasks” they can do right now to make their day a little better.
+
+**2. Asking for design feedback**
+
+> I designed My Good Day because this helps people feel a little different and meaningful. Some people may feel their days become repetitive, like the same routine and same schedule. What do you think about the visual style, the layout, interaction, or flow? Any suggestions?
+
+**3. Making the writing area pressure-free**
+
+> I choose not to ask specific reflection questions. Can you change “My Reflection” to “Jot down ideas,” since I don’t want to make users feel this is like a task? I would like users to have no stress.
+
+**4. Rejecting filters while adapting the suggestion**
+
+> I don’t want optional context this time, because the heart of a gacha machine is not knowing what you’ll get. Users need a surprise instead of setting conditions before every spin. Maybe you can have two capsule colors: green for tasks alone and blue for tasks with others. Users could tap the color they want first, or choose nothing at all. Choosing then becomes part of the play instead of filling out a form.
+
+**5. Responding to feedback from a friend**
+
+> There is no clear instruction. Maybe you can have a tutorial? Or can you come up with other ideas? My friend said that “Both” is confusing because it might mean a task that is “Just me” and “With others.” Can you think of another word or phrase?
+
+**6. Refining the capsule colors**
+
+> I need to make capsule colors green and orange because I found out that blue is overused—the machine is also blue. Can you help make the changes?
 
 Codex translated these requests into HTML, CSS, JavaScript, and Three.js code. I guided the design through decisions about the mood, wording, colors, and interaction, and chose which suggestions to accept or reject.
 
