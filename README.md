@@ -93,9 +93,9 @@ Throughout the process, AI helped me turn my ideas into working code and offered
 
 Automated tests check that every task is unique and complete, each spin shows three different suggestions, back-to-back spins avoid repeats, and each capsule type returns the right kind of activity. The interface was revised based on hands-on testing and a friend's feedback on the "Both" label. This is not yet a full usability study: more testing on different phones, with keyboard users, and with different photo formats is still needed.
 
-Ideas may repeat. There are 1,095 ideas, and some are similar.
+Activities may repeat. There are 1,095 ideas, and some are similar.
 
-Some ideas may not suit your situation. You can spin again for different suggestions.
+Some activities may not suit your situation. You can spin again for different ones.
 
 Your diary stays in one browser. It does not sync across devices. Clearing browser data deletes your entries.
 
