@@ -94,9 +94,13 @@ Throughout the process, AI helped me turn my ideas into working code and offered
 Automated tests check that every task is unique and complete, each spin shows three different suggestions, back-to-back spins avoid repeats, and each capsule type returns the right kind of activity. The interface was revised based on hands-on testing and a friend's feedback on the "Both" label. This is not yet a full usability study: more testing on different phones, with keyboard users, and with different photo formats is still needed.
 
 Ideas may repeat. There are 1,095 ideas, and some are similar.
+
 Some ideas may not suit your situation. You can spin again for different suggestions.
+
 Your diary stays in one browser. It does not sync across devices. Clearing browser data deletes your entries.
+
 Photos have limits. Each photo must be 15 MB or smaller. Photos are resized and compressed before saving, which may reduce quality.
+
 The experience may vary by device. The 3D machine, sounds, and photo uploads need more testing across phones and browsers.
 
 ## Project Structure
