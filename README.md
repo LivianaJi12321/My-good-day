@@ -79,7 +79,7 @@ These are excerpts from my original prompts, lightly edited for punctuation and 
 
 Codex translated these requests into HTML, CSS, JavaScript, and Three.js code. I guided the design through decisions about the mood, wording, colors, and interaction, and chose which suggestions to accept or reject.
 
-## Reflection
+## Reflections
 
 Some parts matched my expectations and some did not. At first, I thought that if my description was detailed enough, I would not need many changes. This project showed me that a detailed prompt is only a starting point. I still needed to try the experience, notice what felt unclear, and explain what I wanted to change.One mistake I noticed was relying on assumptions. My first description did not include audio because I assumed Codex would generate it automatically. When I later asked for audio, Codex also added a sound on/off option that I had not specifically requested. The option lets people choose a quieter experience, but it reminded me to review both missing details and unexpected additions.
 
