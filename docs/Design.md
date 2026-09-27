@@ -6,7 +6,7 @@ Updated September 26, 2026.
 
 Turn self-care into a playful gacha experience. Small, unexpected activities can interrupt repetitive routines and give an ordinary day a little fun and meaning. Keep the experience welcoming, low-pressure, and simple for people of different ages.
 
-**[Play My Good Day online](https://my-good-day.xj2365.chatgpt.site)** — no installation required.
+**[Play My Good Day online](https://livianaji12321.github.io/My-good-day/)** — no installation required.
 
 ## Current experience
 
