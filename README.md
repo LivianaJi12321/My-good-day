@@ -47,7 +47,7 @@ pnpm preview    # Preview the production build locally
 
 ## AI Tools
 
-I used Codex for most of the development and revisions. I described my ideas in natural language, including the UI, user experience, functions, and technology choices. I also supplied a low-poly style reference and gave feedback after trying different versions.
+Tools Used: OpenAI Codex
 
 ### Key Prompts
 
