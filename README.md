@@ -22,7 +22,7 @@ Open the link in your browser on a computer or phone. No installation or local s
 
 1. **Choose a capsule type if you like.** Green **Just me** capsules suggest solo activities. Orange **With others** capsules suggest ways to connect. **A little of each** gives a mix of solo and shared ideas. Leave all options unselected for a surprise color, or tap a selected option again to clear it.
 2. **Tap the red button on the cat machine.** Watch it shake, turn its crank, and release a capsule. Keyboard users can focus the button with Tab and press Enter or Space.
-3. **Explore three little possibilities.** The web page selects from 228 ideas. Choose one that catches your eye, or spin again. It avoids repeating the immediately previous suggestions when possible.
+3. **Explore three little possibilities.** The web page selects from 1,095 ideas. Choose one that catches your eye, or spin again. It avoids repeating the immediately previous suggestions when possible.
 4. **Try the activity whenever you are ready.** Check **“I did it!”** before saving. You can add one or more photos and use **“Jot down ideas”** for anything you feel like noting down. Both are optional.
 5. **Keep your moment in My Good Day Diary.** Entries include the save date and time, newest first. You can revisit or delete them whenever you like.
 

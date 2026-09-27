@@ -11,7 +11,7 @@ When working in the project, read its `docs/Design.md` for the product brief and
 
 Preserve these product invariants unless the user changes them:
 
-- Each spin selects three distinct tasks from the 228-task collection, avoiding the immediately preceding suggestions where possible. Green “Just me” uses solo tasks; orange “With others” uses shared tasks; “A little of each” guarantees a mix. With no selection, randomly choose either capsule type. Tapping a selected option clears it.
+- Each spin selects three distinct tasks from the 1,095-task collection, avoiding the immediately preceding suggestions where possible. Green “Just me” uses solo tasks; orange “With others” uses shared tasks; “A little of each” guarantees a mix. With no selection, randomly choose either capsule type. Tapping a selected option clears it.
 - The cat has angular ears, a translucent capsule-filled head, a star eye, an omega-shaped mouth, blush, paws, tail, a side crank, and a red button. Favor faceted retro geometry and pastel blue, yellow, and pink against pale yellow.
 - The animation presses the button, turns the crank, shakes the capsules, and dispenses an opening capsule. Block overlapping spins and honor reduced motion.
 - The large red button on the machine is the primary spin control, with a native hit target aligned to it. Do not restore the separate “Give me a little good” button. Enter and Space activate the focused native spin control. Keep all task and diary interactions keyboard-accessible.

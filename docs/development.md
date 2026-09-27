@@ -29,7 +29,8 @@ managed at the repository root.
 | `src/machine.js` | Procedural Three.js model and animation |
 | `src/sound.js` | Synthesized sound effects and saved mute preference |
 | `src/tasks.js` | Original tasks and nonrepeating random selection |
-| `src/extra-tasks.js` | Additional tasks grouped by theme |
+| `src/extra-tasks.js` | First 200 additions grouped by theme |
+| `src/expanded-tasks.js` | 867 further ideas with explicit solo/shared classification |
 | `src/storage.js` | IndexedDB entries and photo processing |
 | `src/style.css` | Responsive layout, colors, type, and reduced motion |
 | `tests/tasks.test.js` | Task completeness, uniqueness, and spin behavior |
@@ -54,3 +55,9 @@ Do not edit generated build output; change source files and rebuild.
 The hosting workspace has `.openai/hosting.json` identifying the existing Site. Its deployment uses root `dist/`, produced with `vite build code --outDir ../dist`; ordinary `pnpm build` still outputs `code/dist/`. Both are generated and ignored by Git. Preserve the existing Site identity when publishing from the hosting workspace.
 
 The Desktop folder is a separate copy, not a synchronized checkout. Its `references/` directory preserves the personal style image. Updating that copy does not move the running preview or change the public web page. Browser diaries are unaffected by documentation or source-folder copies.
+
+## Idea collection
+
+There are 1,095 ideas: 566 solo and 529 shared. The original 228 retain their IDs and wording. The expansion adds 867 individually written suggestions across 17 themes, with explicit company metadata so creative, outdoor, and quiet shared activities reach orange capsules too. Durations are approximate invitations, not deadlines.
+
+Tests enforce the exact count, unique IDs and text, valid card metadata, and the solo/shared/mixed selection behavior. Keep the count and documentation aligned when adding more ideas. Themes naturally overlap; unique wording does not imply every activity is entirely unlike every other one.
