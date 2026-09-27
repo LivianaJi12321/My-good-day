@@ -14,7 +14,7 @@ The center of the web page is a retro, low-poly glass cat machine, inspired by t
 
 ### Play online
 
-**[Play My Good Day online](https://my-good-day.xj2365.chatgpt.site)**
+**[Play My Good Day online](https://livianaji12321.github.io/My-good-day/)**
 
 Open the link in your browser on a computer or phone. No installation or local server is needed. Your diary stays in the browser you use to play.
 
